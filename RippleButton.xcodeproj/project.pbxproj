@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D513D5801CEAC775006140F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D513D57F1CEAC775006140F6 /* main.m */; };
+		D513D5831CEAC775006140F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D513D5821CEAC775006140F6 /* AppDelegate.m */; };
+		D513D5861CEAC775006140F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D513D5851CEAC775006140F6 /* ViewController.m */; };
+		D513D5891CEAC775006140F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D513D5871CEAC775006140F6 /* Main.storyboard */; };
+		D513D58B1CEAC775006140F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D513D58A1CEAC775006140F6 /* Assets.xcassets */; };
+		D513D58E1CEAC775006140F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D513D58C1CEAC775006140F6 /* LaunchScreen.storyboard */; };
+		D513D5991CEAC775006140F6 /* RippleButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D513D5981CEAC775006140F6 /* RippleButtonTests.m */; };
+		D513D5A41CEAC775006140F6 /* RippleButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D513D5A31CEAC775006140F6 /* RippleButtonUITests.m */; };
+		D513D5B61CEAD0E4006140F6 /* 兜兜点击@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D513D5B41CEAD0E4006140F6 /* 兜兜点击@2x.png */; };
+		D513D5B71CEAD0E4006140F6 /* 兜兜点击@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D513D5B51CEAD0E4006140F6 /* 兜兜点击@3x.png */; };
+		D513D5BA1CEAD3EA006140F6 /* RippleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D513D5B91CEAD3EA006140F6 /* RippleButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D513D5951CEAC775006140F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D513D5731CEAC774006140F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D513D57A1CEAC774006140F6;
+			remoteInfo = RippleButton;
+		};
+		D513D5A01CEAC775006140F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D513D5731CEAC774006140F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D513D57A1CEAC774006140F6;
+			remoteInfo = RippleButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D513D57B1CEAC774006140F6 /* RippleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RippleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D513D57F1CEAC775006140F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D513D5811CEAC775006140F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D513D5821CEAC775006140F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D513D5841CEAC775006140F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D513D5851CEAC775006140F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D513D5881CEAC775006140F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D513D58A1CEAC775006140F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D513D58D1CEAC775006140F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D513D58F1CEAC775006140F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D513D5941CEAC775006140F6 /* RippleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D513D5981CEAC775006140F6 /* RippleButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RippleButtonTests.m; sourceTree = "<group>"; };
+		D513D59A1CEAC775006140F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D513D59F1CEAC775006140F6 /* RippleButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D513D5A31CEAC775006140F6 /* RippleButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RippleButtonUITests.m; sourceTree = "<group>"; };
+		D513D5A51CEAC775006140F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D513D5B41CEAD0E4006140F6 /* 兜兜点击@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "兜兜点击@2x.png"; sourceTree = "<group>"; };
+		D513D5B51CEAD0E4006140F6 /* 兜兜点击@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "兜兜点击@3x.png"; sourceTree = "<group>"; };
+		D513D5B81CEAD3EA006140F6 /* RippleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleButton.h; sourceTree = "<group>"; };
+		D513D5B91CEAD3EA006140F6 /* RippleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D513D5781CEAC774006140F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D513D5911CEAC775006140F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D513D59C1CEAC775006140F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D513D5721CEAC774006140F6 = {
+			isa = PBXGroup;
+			children = (
+				D513D57D1CEAC775006140F6 /* RippleButton */,
+				D513D5971CEAC775006140F6 /* RippleButtonTests */,
+				D513D5A21CEAC775006140F6 /* RippleButtonUITests */,
+				D513D57C1CEAC774006140F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D513D57C1CEAC774006140F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D513D57B1CEAC774006140F6 /* RippleButton.app */,
+				D513D5941CEAC775006140F6 /* RippleButtonTests.xctest */,
+				D513D59F1CEAC775006140F6 /* RippleButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D513D57D1CEAC775006140F6 /* RippleButton */ = {
+			isa = PBXGroup;
+			children = (
+				D513D5811CEAC775006140F6 /* AppDelegate.h */,
+				D513D5821CEAC775006140F6 /* AppDelegate.m */,
+				D513D5841CEAC775006140F6 /* ViewController.h */,
+				D513D5851CEAC775006140F6 /* ViewController.m */,
+				D513D5B81CEAD3EA006140F6 /* RippleButton.h */,
+				D513D5B91CEAD3EA006140F6 /* RippleButton.m */,
+				D513D5871CEAC775006140F6 /* Main.storyboard */,
+				D513D58A1CEAC775006140F6 /* Assets.xcassets */,
+				D513D58C1CEAC775006140F6 /* LaunchScreen.storyboard */,
+				D513D5B41CEAD0E4006140F6 /* 兜兜点击@2x.png */,
+				D513D5B51CEAD0E4006140F6 /* 兜兜点击@3x.png */,
+				D513D58F1CEAC775006140F6 /* Info.plist */,
+				D513D57E1CEAC775006140F6 /* Supporting Files */,
+			);
+			path = RippleButton;
+			sourceTree = "<group>";
+		};
+		D513D57E1CEAC775006140F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D513D57F1CEAC775006140F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D513D5971CEAC775006140F6 /* RippleButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D513D5981CEAC775006140F6 /* RippleButtonTests.m */,
+				D513D59A1CEAC775006140F6 /* Info.plist */,
+			);
+			path = RippleButtonTests;
+			sourceTree = "<group>";
+		};
+		D513D5A21CEAC775006140F6 /* RippleButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D513D5A31CEAC775006140F6 /* RippleButtonUITests.m */,
+				D513D5A51CEAC775006140F6 /* Info.plist */,
+			);
+			path = RippleButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D513D57A1CEAC774006140F6 /* RippleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D513D5A81CEAC775006140F6 /* Build configuration list for PBXNativeTarget "RippleButton" */;
+			buildPhases = (
+				D513D5771CEAC774006140F6 /* Sources */,
+				D513D5781CEAC774006140F6 /* Frameworks */,
+				D513D5791CEAC774006140F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RippleButton;
+			productName = RippleButton;
+			productReference = D513D57B1CEAC774006140F6 /* RippleButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D513D5931CEAC775006140F6 /* RippleButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D513D5AB1CEAC775006140F6 /* Build configuration list for PBXNativeTarget "RippleButtonTests" */;
+			buildPhases = (
+				D513D5901CEAC775006140F6 /* Sources */,
+				D513D5911CEAC775006140F6 /* Frameworks */,
+				D513D5921CEAC775006140F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D513D5961CEAC775006140F6 /* PBXTargetDependency */,
+			);
+			name = RippleButtonTests;
+			productName = RippleButtonTests;
+			productReference = D513D5941CEAC775006140F6 /* RippleButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D513D59E1CEAC775006140F6 /* RippleButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D513D5AE1CEAC775006140F6 /* Build configuration list for PBXNativeTarget "RippleButtonUITests" */;
+			buildPhases = (
+				D513D59B1CEAC775006140F6 /* Sources */,
+				D513D59C1CEAC775006140F6 /* Frameworks */,
+				D513D59D1CEAC775006140F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D513D5A11CEAC775006140F6 /* PBXTargetDependency */,
+			);
+			name = RippleButtonUITests;
+			productName = RippleButtonUITests;
+			productReference = D513D59F1CEAC775006140F6 /* RippleButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D513D5731CEAC774006140F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Dimoo;
+				TargetAttributes = {
+					D513D57A1CEAC774006140F6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D513D5931CEAC775006140F6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D513D57A1CEAC774006140F6;
+					};
+					D513D59E1CEAC775006140F6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D513D57A1CEAC774006140F6;
+					};
+				};
+			};
+			buildConfigurationList = D513D5761CEAC774006140F6 /* Build configuration list for PBXProject "RippleButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D513D5721CEAC774006140F6;
+			productRefGroup = D513D57C1CEAC774006140F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D513D57A1CEAC774006140F6 /* RippleButton */,
+				D513D5931CEAC775006140F6 /* RippleButtonTests */,
+				D513D59E1CEAC775006140F6 /* RippleButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D513D5791CEAC774006140F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D513D5B61CEAD0E4006140F6 /* 兜兜点击@2x.png in Resources */,
+				D513D58E1CEAC775006140F6 /* LaunchScreen.storyboard in Resources */,
+				D513D5B71CEAD0E4006140F6 /* 兜兜点击@3x.png in Resources */,
+				D513D58B1CEAC775006140F6 /* Assets.xcassets in Resources */,
+				D513D5891CEAC775006140F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D513D5921CEAC775006140F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D513D59D1CEAC775006140F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D513D5771CEAC774006140F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D513D5861CEAC775006140F6 /* ViewController.m in Sources */,
+				D513D5BA1CEAD3EA006140F6 /* RippleButton.m in Sources */,
+				D513D5831CEAC775006140F6 /* AppDelegate.m in Sources */,
+				D513D5801CEAC775006140F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D513D5901CEAC775006140F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D513D5991CEAC775006140F6 /* RippleButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D513D59B1CEAC775006140F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D513D5A41CEAC775006140F6 /* RippleButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D513D5961CEAC775006140F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D513D57A1CEAC774006140F6 /* RippleButton */;
+			targetProxy = D513D5951CEAC775006140F6 /* PBXContainerItemProxy */;
+		};
+		D513D5A11CEAC775006140F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D513D57A1CEAC774006140F6 /* RippleButton */;
+			targetProxy = D513D5A01CEAC775006140F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D513D5871CEAC775006140F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D513D5881CEAC775006140F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D513D58C1CEAC775006140F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D513D58D1CEAC775006140F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D513D5A61CEAC775006140F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D513D5A71CEAC775006140F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D513D5A91CEAC775006140F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RippleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aixin.LoveCard.RippleButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D513D5AA1CEAC775006140F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RippleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aixin.LoveCard.RippleButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D513D5AC1CEAC775006140F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RippleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aixin.LoveCard.RippleButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RippleButton.app/RippleButton";
+			};
+			name = Debug;
+		};
+		D513D5AD1CEAC775006140F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RippleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aixin.LoveCard.RippleButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RippleButton.app/RippleButton";
+			};
+			name = Release;
+		};
+		D513D5AF1CEAC775006140F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RippleButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aixin.LoveCard.RippleButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RippleButton;
+			};
+			name = Debug;
+		};
+		D513D5B01CEAC775006140F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RippleButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aixin.LoveCard.RippleButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RippleButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D513D5761CEAC774006140F6 /* Build configuration list for PBXProject "RippleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D513D5A61CEAC775006140F6 /* Debug */,
+				D513D5A71CEAC775006140F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D513D5A81CEAC775006140F6 /* Build configuration list for PBXNativeTarget "RippleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D513D5A91CEAC775006140F6 /* Debug */,
+				D513D5AA1CEAC775006140F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D513D5AB1CEAC775006140F6 /* Build configuration list for PBXNativeTarget "RippleButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D513D5AC1CEAC775006140F6 /* Debug */,
+				D513D5AD1CEAC775006140F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D513D5AE1CEAC775006140F6 /* Build configuration list for PBXNativeTarget "RippleButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D513D5AF1CEAC775006140F6 /* Debug */,
+				D513D5B01CEAC775006140F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D513D5731CEAC774006140F6 /* Project object */;
+}

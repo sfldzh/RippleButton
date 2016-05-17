@@ -80,7 +80,6 @@
     
     CAAnimationGroup *animation = [CAAnimationGroup animation];
     animation.animations = @[scaleAnimation, alphaAnimation];
-    animation.delegate = self;
     animation.duration = duration;
     animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     
